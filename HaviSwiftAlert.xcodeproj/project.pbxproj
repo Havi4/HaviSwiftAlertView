@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C2D83B01CCDCDB7005C31E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D83AF1CCDCDB7005C31E6 /* AppDelegate.swift */; };
+		2C2D83B21CCDCDB7005C31E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D83B11CCDCDB7005C31E6 /* ViewController.swift */; };
+		2C2D83B51CCDCDB7005C31E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2D83B31CCDCDB7005C31E6 /* Main.storyboard */; };
+		2C2D83B71CCDCDB7005C31E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2D83B61CCDCDB7005C31E6 /* Assets.xcassets */; };
+		2C2D83BA1CCDCDB7005C31E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2D83B81CCDCDB7005C31E6 /* LaunchScreen.storyboard */; };
+		2C2D83C51CCDCDB7005C31E6 /* HaviSwiftAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D83C41CCDCDB7005C31E6 /* HaviSwiftAlertTests.swift */; };
+		2C2D83D01CCDCDB7005C31E6 /* HaviSwiftAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D83CF1CCDCDB7005C31E6 /* HaviSwiftAlertUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C2D83C11CCDCDB7005C31E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C2D83A41CCDCDB7005C31E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C2D83AB1CCDCDB7005C31E6;
+			remoteInfo = HaviSwiftAlert;
+		};
+		2C2D83CC1CCDCDB7005C31E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C2D83A41CCDCDB7005C31E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C2D83AB1CCDCDB7005C31E6;
+			remoteInfo = HaviSwiftAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C2D83AC1CCDCDB7005C31E6 /* HaviSwiftAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaviSwiftAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2D83AF1CCDCDB7005C31E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C2D83B11CCDCDB7005C31E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C2D83B41CCDCDB7005C31E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C2D83B61CCDCDB7005C31E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C2D83B91CCDCDB7005C31E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C2D83BB1CCDCDB7005C31E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2D83C01CCDCDB7005C31E6 /* HaviSwiftAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaviSwiftAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2D83C41CCDCDB7005C31E6 /* HaviSwiftAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaviSwiftAlertTests.swift; sourceTree = "<group>"; };
+		2C2D83C61CCDCDB7005C31E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2D83CB1CCDCDB7005C31E6 /* HaviSwiftAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaviSwiftAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2D83CF1CCDCDB7005C31E6 /* HaviSwiftAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaviSwiftAlertUITests.swift; sourceTree = "<group>"; };
+		2C2D83D11CCDCDB7005C31E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C2D83A91CCDCDB7005C31E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2D83BD1CCDCDB7005C31E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2D83C81CCDCDB7005C31E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C2D83A31CCDCDB7005C31E6 = {
+			isa = PBXGroup;
+			children = (
+				2C2D83AE1CCDCDB7005C31E6 /* HaviSwiftAlert */,
+				2C2D83C31CCDCDB7005C31E6 /* HaviSwiftAlertTests */,
+				2C2D83CE1CCDCDB7005C31E6 /* HaviSwiftAlertUITests */,
+				2C2D83AD1CCDCDB7005C31E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C2D83AD1CCDCDB7005C31E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D83AC1CCDCDB7005C31E6 /* HaviSwiftAlert.app */,
+				2C2D83C01CCDCDB7005C31E6 /* HaviSwiftAlertTests.xctest */,
+				2C2D83CB1CCDCDB7005C31E6 /* HaviSwiftAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C2D83AE1CCDCDB7005C31E6 /* HaviSwiftAlert */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D83AF1CCDCDB7005C31E6 /* AppDelegate.swift */,
+				2C2D83B11CCDCDB7005C31E6 /* ViewController.swift */,
+				2C2D83B31CCDCDB7005C31E6 /* Main.storyboard */,
+				2C2D83B61CCDCDB7005C31E6 /* Assets.xcassets */,
+				2C2D83B81CCDCDB7005C31E6 /* LaunchScreen.storyboard */,
+				2C2D83BB1CCDCDB7005C31E6 /* Info.plist */,
+			);
+			path = HaviSwiftAlert;
+			sourceTree = "<group>";
+		};
+		2C2D83C31CCDCDB7005C31E6 /* HaviSwiftAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D83C41CCDCDB7005C31E6 /* HaviSwiftAlertTests.swift */,
+				2C2D83C61CCDCDB7005C31E6 /* Info.plist */,
+			);
+			path = HaviSwiftAlertTests;
+			sourceTree = "<group>";
+		};
+		2C2D83CE1CCDCDB7005C31E6 /* HaviSwiftAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D83CF1CCDCDB7005C31E6 /* HaviSwiftAlertUITests.swift */,
+				2C2D83D11CCDCDB7005C31E6 /* Info.plist */,
+			);
+			path = HaviSwiftAlertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C2D83AB1CCDCDB7005C31E6 /* HaviSwiftAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C2D83D41CCDCDB7005C31E6 /* Build configuration list for PBXNativeTarget "HaviSwiftAlert" */;
+			buildPhases = (
+				2C2D83A81CCDCDB7005C31E6 /* Sources */,
+				2C2D83A91CCDCDB7005C31E6 /* Frameworks */,
+				2C2D83AA1CCDCDB7005C31E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaviSwiftAlert;
+			productName = HaviSwiftAlert;
+			productReference = 2C2D83AC1CCDCDB7005C31E6 /* HaviSwiftAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C2D83BF1CCDCDB7005C31E6 /* HaviSwiftAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C2D83D71CCDCDB7005C31E6 /* Build configuration list for PBXNativeTarget "HaviSwiftAlertTests" */;
+			buildPhases = (
+				2C2D83BC1CCDCDB7005C31E6 /* Sources */,
+				2C2D83BD1CCDCDB7005C31E6 /* Frameworks */,
+				2C2D83BE1CCDCDB7005C31E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C2D83C21CCDCDB7005C31E6 /* PBXTargetDependency */,
+			);
+			name = HaviSwiftAlertTests;
+			productName = HaviSwiftAlertTests;
+			productReference = 2C2D83C01CCDCDB7005C31E6 /* HaviSwiftAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C2D83CA1CCDCDB7005C31E6 /* HaviSwiftAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C2D83DA1CCDCDB7005C31E6 /* Build configuration list for PBXNativeTarget "HaviSwiftAlertUITests" */;
+			buildPhases = (
+				2C2D83C71CCDCDB7005C31E6 /* Sources */,
+				2C2D83C81CCDCDB7005C31E6 /* Frameworks */,
+				2C2D83C91CCDCDB7005C31E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C2D83CD1CCDCDB7005C31E6 /* PBXTargetDependency */,
+			);
+			name = HaviSwiftAlertUITests;
+			productName = HaviSwiftAlertUITests;
+			productReference = 2C2D83CB1CCDCDB7005C31E6 /* HaviSwiftAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C2D83A41CCDCDB7005C31E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Havi;
+				TargetAttributes = {
+					2C2D83AB1CCDCDB7005C31E6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2C2D83BF1CCDCDB7005C31E6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2C2D83AB1CCDCDB7005C31E6;
+					};
+					2C2D83CA1CCDCDB7005C31E6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2C2D83AB1CCDCDB7005C31E6;
+					};
+				};
+			};
+			buildConfigurationList = 2C2D83A71CCDCDB7005C31E6 /* Build configuration list for PBXProject "HaviSwiftAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C2D83A31CCDCDB7005C31E6;
+			productRefGroup = 2C2D83AD1CCDCDB7005C31E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C2D83AB1CCDCDB7005C31E6 /* HaviSwiftAlert */,
+				2C2D83BF1CCDCDB7005C31E6 /* HaviSwiftAlertTests */,
+				2C2D83CA1CCDCDB7005C31E6 /* HaviSwiftAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C2D83AA1CCDCDB7005C31E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2D83BA1CCDCDB7005C31E6 /* LaunchScreen.storyboard in Resources */,
+				2C2D83B71CCDCDB7005C31E6 /* Assets.xcassets in Resources */,
+				2C2D83B51CCDCDB7005C31E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2D83BE1CCDCDB7005C31E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2D83C91CCDCDB7005C31E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C2D83A81CCDCDB7005C31E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2D83B21CCDCDB7005C31E6 /* ViewController.swift in Sources */,
+				2C2D83B01CCDCDB7005C31E6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2D83BC1CCDCDB7005C31E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2D83C51CCDCDB7005C31E6 /* HaviSwiftAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2D83C71CCDCDB7005C31E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2D83D01CCDCDB7005C31E6 /* HaviSwiftAlertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C2D83C21CCDCDB7005C31E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C2D83AB1CCDCDB7005C31E6 /* HaviSwiftAlert */;
+			targetProxy = 2C2D83C11CCDCDB7005C31E6 /* PBXContainerItemProxy */;
+		};
+		2C2D83CD1CCDCDB7005C31E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C2D83AB1CCDCDB7005C31E6 /* HaviSwiftAlert */;
+			targetProxy = 2C2D83CC1CCDCDB7005C31E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C2D83B31CCDCDB7005C31E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C2D83B41CCDCDB7005C31E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C2D83B81CCDCDB7005C31E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C2D83B91CCDCDB7005C31E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C2D83D21CCDCDB7005C31E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C2D83D31CCDCDB7005C31E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C2D83D51CCDCDB7005C31E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HaviSwiftAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Havi.HaviSwiftAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C2D83D61CCDCDB7005C31E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HaviSwiftAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Havi.HaviSwiftAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2C2D83D81CCDCDB7005C31E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HaviSwiftAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Havi.HaviSwiftAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaviSwiftAlert.app/HaviSwiftAlert";
+			};
+			name = Debug;
+		};
+		2C2D83D91CCDCDB7005C31E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HaviSwiftAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Havi.HaviSwiftAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaviSwiftAlert.app/HaviSwiftAlert";
+			};
+			name = Release;
+		};
+		2C2D83DB1CCDCDB7005C31E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HaviSwiftAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Havi.HaviSwiftAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HaviSwiftAlert;
+			};
+			name = Debug;
+		};
+		2C2D83DC1CCDCDB7005C31E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HaviSwiftAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Havi.HaviSwiftAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HaviSwiftAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C2D83A71CCDCDB7005C31E6 /* Build configuration list for PBXProject "HaviSwiftAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2D83D21CCDCDB7005C31E6 /* Debug */,
+				2C2D83D31CCDCDB7005C31E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C2D83D41CCDCDB7005C31E6 /* Build configuration list for PBXNativeTarget "HaviSwiftAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2D83D51CCDCDB7005C31E6 /* Debug */,
+				2C2D83D61CCDCDB7005C31E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C2D83D71CCDCDB7005C31E6 /* Build configuration list for PBXNativeTarget "HaviSwiftAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2D83D81CCDCDB7005C31E6 /* Debug */,
+				2C2D83D91CCDCDB7005C31E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C2D83DA1CCDCDB7005C31E6 /* Build configuration list for PBXNativeTarget "HaviSwiftAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2D83DB1CCDCDB7005C31E6 /* Debug */,
+				2C2D83DC1CCDCDB7005C31E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C2D83A41CCDCDB7005C31E6 /* Project object */;
+}
